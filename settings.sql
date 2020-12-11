@@ -1,0 +1,3 @@
+CREATE DATABASE legos;
+CREATE USER legosuser WITH PASSWORD 'legos';
+GRANT ALL PRIVILEGES ON DATABASE legos TO legosuser;
