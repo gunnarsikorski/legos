@@ -7,6 +7,7 @@ class Lego(models.Model):
     piece_count = models.PositiveSmallIntegerField()
     source = models.CharField(max_length=200)
     release_year = models.PositiveSmallIntegerField()
+    image_url = models.TextField(max_length=500, default=None)
     minifigures = ArrayField(models.CharField(max_length=50))
     set_series = models.CharField(max_length=100)
 
@@ -22,4 +23,3 @@ class Review(models.Model):
 
     def __str__(self):
         return self.title
-
