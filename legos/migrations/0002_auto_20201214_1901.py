@@ -62,6 +62,103 @@ def seed(apps, schema_editor):
          release_year=2000, image_url='https://images-na.ssl-images-amazon.com/images/I/819Y9%2BgJ6FL._AC_SX466_.jpg', minifigures=['None'], set_series='Star Wars').save()
     Lego(name='B-Wing at Rebel Control Center', set_number=7180, piece_count=338, source='Episode VI',
          release_year=2000, image_url='https://lego.brickinstructions.com/07000/7180/001.jpg', minifigures=['R5-D4', 'Rebel B-Wing Pilot', 'Rebel Technician'], set_series='Star Wars').save()
+    
+    Lego(name='Battle Droid Carrier', set_number=7126, piece_count=133, source='Episode I', release_year=2001,
+         image_url='https://images.brickset.com/sets/images/7126-1.jpg?200709280631', minifigures=['Battle Droid Pilot', 'Battle Droid (6x)'], set_series='Star Wars').save()
+    Lego(name='Watto\'s Junkyard', set_number=7186, piece_count=443, source='Episode I', release_year=2001,
+         image_url='https://images.brickset.com/sets/images/7186-1.jpg?200709280633', minifigures=['Watto', 'Aldar Beedo'], set_series='Star Wars').save()
+    Lego(name='Darth Maul', set_number=10018, piece_count=1868, source='Episode I', release_year=2001,
+         image_url='https://images.brickset.com/sets/images/10018-1.jpg?200709280629', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Technic C-3PO', set_number=8007, piece_count=341, source='Episode I', release_year=2001, image_url='https://images.brickset.com/sets/images/8007-1.jpg?200709281005', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Droid Escape', set_number=7106, piece_count=45, source='Episode IV', release_year=2001,
+         image_url='https://images.brickset.com/sets/images/7106-1.jpg?200709280617', minifigures=['C-3PO', 'R2-D2'], set_series='Star Wars').save()
+    Lego(name='TIE Fighter', set_number=7146, piece_count=171, source='Episode IV', release_year=2001, image_url='https://images.brickset.com/sets/images/7146-1.jpg?200709280620', minifigures=['TIE Fighter Pilot', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='Rebel Blockade Runner', set_number=10019, piece_count=1747, source='Episode IV', release_year=2001, image_url='https://images.brickset.com/sets/images/10019-1.jpg?201703240324', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Technic Stormtrooper', set_number=8008, piece_count=361, source='Episode IV', release_year=2001, image_url='https://images.brickset.com/sets/images/8008-1.jpg?200709281006', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Imperial Shuttle', set_number=7166, piece_count=238, source='Episode VI', release_year=2001, image_url='https://images.brickset.com/sets/images/7166-1.jpg?200709280621',
+         minifigures=['Emperor Palpatine', 'Imperial Shuttle Pilot', 'Imperial Guard (2x)'], set_series='Star Wars').save()
+    Lego(name='Imperial AT-ST', set_number=7127, piece_count=107, source='Episode VI', release_year=2001, image_url='https://images.brickset.com/sets/images/7127-1.jpg?200709280617', minifigures=['Chewbacca'], set_series='Star Wars').save()
+
+    Lego(name='Jedi Defense I', set_number=7203, piece_count=59, source='Episode I', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7203-1.jpg?200709280633', minifigures=['Obi-Wan Kenobi', 'Droideka (2x)'], set_series='Star Wars').save()
+    Lego(name='Jedi Defense II', set_number=7204, piece_count=53, source='Episode I', release_year=2002, image_url='https://images.brickset.com/sets/images/7204-1.jpg?200709280633', minifigures=['Qui-Gon Jinn', 'Battle Droid Security', 'Battle Droid Commander'], set_series='Star Wars').save()
+    Lego(name='UCS Naboo Starfighter', set_number=10026, piece_count=187, source='Episode I', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/10026-1.jpg?200206190556', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Jedi Duel', set_number=7103, piece_count=82, source='Episode II', release_year=2002, image_url='https://images.brickset.com/sets/images/7103-1.jpg?200709280635', minifigures=['Yoda', 'Count Dooku'], set_series='Star Wars').save()
+    Lego(name='Tusken Raider Encounter', set_number=7113, piece_count=93, source='Episode II', release_year=2002, image_url='https://images.brickset.com/sets/images/7113-1.jpg?200709280636', minifigures=['Anakin Skywalker', 'Tusken Raider (2x)'], set_series='Star Wars').save()
+    Lego(name='Bounty Hunter Pursuit', set_number=7133, piece_count=259, source='Episode II', release_year=2002, image_url='https://images.brickset.com/sets/images/7133-1.jpg?200709280636', minifigures=['Anakin Skywalker', 'Obi-Wan Kenobi', 'Zam Wesell'], set_series='Star Wars').save()
+    Lego(name='Jedi Starfighter', set_number=7143, piece_count=139, source='Episode II', release_year=2002, image_url='https://images.brickset.com/sets/images/7143-1.jpg?200709280636', minifigures=['Obi-Wan Kenobi'], set_series='Star Wars').save()
+    Lego(name='Jango Fett\'s Slave I', set_number=7153, piece_count=360, source='Episode II', release_year=2002,
+         image_url='https://images.brickset.com/sets/large/7153-1.jpg?200709280636', minifigures=['Jango Fett', 'Boba Fett'], set_series='Star Wars').save()
+    Lego(name='Republic Gunship', set_number=7163, piece_count=693, source='Episode II', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7163-1.jpg?200709280636', minifigures=['Clone Trooper (4x)', 'Droideka', 'Jedi Knight', 'Super Battle Droid (2x)'], set_series='Star Wars').save()
+    Lego(name='Technic R2-D2', set_number=8009, piece_count=240, source='Episode II', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/8009-1.jpg?200709281006', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Technic Jango Fett', set_number=8011, piece_count=422, source='Episode II', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/8011-1.jpg?200709281007', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Technic Super Battle Droid', set_number=8012, piece_count=379, source='Episode II', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/8012-1.jpg?200709281007', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='X-Wing Fighter', set_number=7142, piece_count=267, source='Episode IV', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7142-1.jpg?200709280619', minifigures=['Luke Skywalker', 'R2-D2', 'Biggs Darklighter', 'Rebel Technician'], set_series='Star Wars').save()
+    Lego(name='TIE Fighter and Y-Wing', set_number=7152, piece_count=410, source='Episode IV', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7152-1.jpg?200709280621', minifigures=['Darth Vader', 'R5-D4', 'Rebel Y-Wing Pilot'], set_series='Star Wars').save()
+    Lego(name='Mini TIE Fighter', set_number=3219, piece_count=12, source='Episode IV', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/3219-1.jpg?200708030701', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Technic Darth Vader', set_number=8010, piece_count=391, source='Episode IV', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/8010-1.jpg?200709281007', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='UCS Imperial Star Destroyer', set_number=10030, piece_count=3096, source='Episode IV', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/10030-1.jpg?200709280625', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='UCS Yoda', set_number=7194, piece_count=1075, source='Episode V', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7194-1.jpg?200109211200', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Twin-Pod Cloud Car', set_number=7119, piece_count=118, source='Episode V', release_year=2002, image_url='https://images.brickset.com/sets/images/7119-1.jpg?200709280617', minifigures=['Lobot'], set_series='Star Wars').save()
+    Lego(name='Ewok Attack', set_number=7139, piece_count=121, source='Episode VI', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7139-1.jpg?200709280619', minifigures=['Wicket', 'Paploo', 'Scout Trooper', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='Final Duel I', set_number=7200, piece_count=31, source='Episode VI', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7200-1.jpg?200709280622', minifigures=['Emperor Palpatine', 'Darth Vader'], set_series='Star Wars').save()
+    Lego(name='Final Duel II', set_number=7201, piece_count=26, source='Episode VI', release_year=2002,
+         image_url='https://images.brickset.com/sets/images/7201-1.jpg?200709280622', minifigures=['Luke Skywalker', 'Stormtrooper', 'Imperial Officer'], set_series='Star Wars').save()
+
+    Lego(name='Mini Sebulba\'s Podracer and Anakin\'s Podracer', set_number=4485, piece_count=72, source='Episode I', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4485-1.jpg?200211031122', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Mini MTT', set_number=4491, piece_count=99, source='Episode I', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4491-1.jpg?200301030418', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Geonosian Fighter', set_number=4478, piece_count=170, source='Episode II', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4478-1.jpg?200709280635', minifigures=['Battle Droid (2x)', 'Geonosian (2x)'], set_series='Star Wars').save()
+    Lego(name='Hailfire Droid', set_number=4481, piece_count=681, source='Episode II', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4481-1.jpg?200709280635', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='AT-TE', set_number=4482, piece_count=658, source='Episode II', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4482-1.jpg?200709280635', minifigures=['Clone Trooper (4x)'], set_series='Star Wars').save()
+    Lego(name='Mini Republic Gunship', set_number=4490, piece_count=102, source='Episode II', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4490-1.jpg?200301030418', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Mini Jedi Starfighter and Slave I', set_number=4487, piece_count=53, source='Episode II', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4487-1.jpg?200211031124', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='T-16 Skyhopper', set_number=4477, piece_count=98, source='Episode IV', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4477-1.jpg?200709280612', minifigures=['Skyhopper Pilot'], set_series='Star Wars').save()
+    Lego(name='Mini X-Wing Fighter and TIE Advanced', set_number=4484, piece_count=76, source='Episode IV', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4484-1.jpg?200211031121', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Mini Millennium Falcon', set_number=4488, piece_count=87, source='Episode IV', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4488-1.jpg?200301030418', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='TIE Bomber', set_number=4479, piece_count=230, source='Episode V', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4479-1.jpg?200709280613', minifigures=['TIE Fighter Pilot'], set_series='Star Wars').save()
+    Lego(name='AT-AT', set_number=4483, piece_count=1068, source='Episode V', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4483-1.jpg?200709280613', minifigures=['Luke Skywalker', 'AT-AT Driver', 'Snowtrooper (2x)'], set_series='Star Wars').save()
+    Lego(name='Mini AT-ST and Snowspeeder', set_number=4486, piece_count=76, source='Episode V', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4486-1.jpg?200211031123', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Mini AT-AT', set_number=4489, piece_count=98, source='Episode V', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4489-1.jpg?200301030418', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Cloud City', set_number=10123, piece_count=698, source='Episode V', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/10123-1.jpg?200709280626', minifigures=['Darth Vader', 'Boba Fett', 'Han Solo', 'Han Solo in Carbonite', 'Lando Calrissian', 'Luke Skywalker', 'Princess Leia', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='Jabba\'s Message', set_number=4475, piece_count=46, source='Episode VI', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4475-1.jpg?200709280611', minifigures=['Bib Fortuna', 'R2-D2', 'C-3PO'], set_series='Star Wars').save()
+    Lego(name='Jabba\'s Prize', set_number=4476, piece_count=40, source='Episode VI', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4476-1.jpg?200709280612', minifigures=['Boba Fett', 'Han Solo in Carbonite', 'Gamorrean Guard'], set_series='Star Wars').save()
+    Lego(name='Jabba\'s Palace', set_number=4480, piece_count=231, source='Episode VI', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4480-1.jpg?200709280613', minifigures=['B-Omarr Monk', 'EV-9D9', 'Gonk Droid', 'Jabba the Hutt', 'Luke Skywalker', 'Princess Leia'], set_series='Star Wars').save()
+    Lego(name='Mini Imperial Shuttle', set_number=4494, piece_count=82, source='Episode VI', release_year=2003,
+         image_url='https://images.brickset.com/sets/images/4494-1.jpg?200310020126', minifigures=['None'], set_series='Star Wars').save()
+
+
+    Lego(name='', set_number=, piece_count=, source='', release_year=, image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
