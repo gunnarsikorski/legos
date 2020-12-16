@@ -14,3 +14,5 @@ class LegoViewSet(viewsets.ModelViewSet):
     filter_backends = (filters.SearchFilter,)
     queryset = Lego.objects.all()
     serializer_class = LegoSerializer
+
+# found how to add search endpoint to my API from a medium article, so sweet!
