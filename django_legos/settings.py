@@ -144,10 +144,10 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+        'rest_framework.permissions.AllowAny'
     ]
 }
 
-AUTH_USER_MODEL='users.User'
+AUTH_USER_MODEL = 'users.User'
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")

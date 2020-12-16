@@ -158,7 +158,7 @@ def seed(apps, schema_editor):
          image_url='https://images.brickset.com/sets/images/4494-1.jpg?200310020126', minifigures=['None'], set_series='Star Wars').save()
 
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=, image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    # Lego(name='', set_number=, piece_count=, source='', release_year=, image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
