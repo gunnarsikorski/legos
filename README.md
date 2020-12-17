@@ -29,13 +29,12 @@ Collecting Legos is a hobby of mine - and I know many others do the same. I buy,
 - Python
 - Django
 - Django REST Framework
-- 
 
 ---
 
 ## Install Intructions
 
-- Use the application by heading to the front-end URL deployed on heroku - from there you'll be able to browse the extensive catalogue of Star Wars Legos (more to come, Harry Potter etc.), search for what you like, make a list or two, and leave a review.
+- Use the application by heading to the [front-end repo](https://github.com/gunnarsikorski/legolife) - from there, click the link to the deployed front-end and you'll be able to browse the extensive catalogue of Star Wars Legos (more to come, Harry Potter etc.), search for what you like, make a list or two, and leave a review.
 - OR do your own work to it and fork and clone this repo!
 
 ---
