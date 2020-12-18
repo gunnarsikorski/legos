@@ -6,7 +6,7 @@ Collecting Legos is a hobby of mine - and I know many others do the same. I buy,
 
 ---
 
-## Endpoints:
+## Endpoints
 - To SEARCH for a lego set (by name, number, minifigures, series, release year, source): https://pure-sierra-61007.herokuapp.com/legos/?search=vader
 - For ALL lego sets: https://pure-sierra-61007.herokuapp.com/legos/
 - For SPECIFIC lego set: https://pure-sierra-61007.herokuapp.com/legos/:id
@@ -16,7 +16,7 @@ Collecting Legos is a hobby of mine - and I know many others do the same. I buy,
 - For SPECIFIC review: https://pure-sierra-61007.herokuapp.com/reviews/:id
 
 ---
-## Models:
+## Models
 ![models](./images/models-image.png)
 
 ---
@@ -42,3 +42,12 @@ Collecting Legos is a hobby of mine - and I know many others do the same. I buy,
 ## Contribution Guidelines
 
 - If you do fork and clone this repo, please create pull requests to add to it, would love to see more data, if it fits the models. Thanks!
+
+## Moving forward
+
+- Planning on consistently building the database, to eventually have an exhaustive list of sets, usable by a large audience, not just Star Wars Lego fans.
+- Implement testing 
+- Add more detailed endpoints, more variety
+- Add thorough documentation
+- Add filtering for the sets
+- Add throttling to the API
