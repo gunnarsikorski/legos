@@ -27,8 +27,8 @@ Collecting Legos is a hobby of mine - and I know many others do the same. I buy,
 ## Technologies Used
 
 - Python
-- Django
 - Django REST Framework
+- PostgresQL
 
 ---
 
