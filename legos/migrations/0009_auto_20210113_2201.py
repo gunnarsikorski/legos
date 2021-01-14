@@ -56,8 +56,8 @@ def seed(apps, schema_editor):
     Lego(name='Republic Frigate', set_number=7964, piece_count=1015, source='Clone Wars', release_year=2011,
          image_url='https://images.brickset.com/sets/images/7964-1.jpg?201102131044', minifigures=['Yoda', 'Commander Wolffe', 'Eeth Koth', 'Quinlan Vos', 'Wolfpack Clone Trooper'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2011,
-    #      image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2011,
+#          image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
