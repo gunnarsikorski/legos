@@ -69,8 +69,8 @@ def seed(apps, schema_editor):
     Lego(name='Pre Vizsla\'s Mandalorian Fighter', set_number=9525, piece_count=403, source='Clone Wars', release_year=2012,
          image_url='https://images.brickset.com/sets/images/9525-1.jpg?201205110641', minifigures=['Obi-Wan Kenobi', 'Mandalorian Death Watch Warrior', 'Pre Vizsla'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2011,
-    #      image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2011,
+#          image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
