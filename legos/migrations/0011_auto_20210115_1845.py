@@ -43,36 +43,36 @@ def seed(apps, schema_editor):
     Lego(name='Jabba\'s Sail Barge', set_number=75020, piece_count=850, source='Episode VI', release_year=2013,
          image_url='https://images.brickset.com/sets/images/75020-1.jpg?201302101020', minifigures=['Jabba the Hutt', 'Max Rebo', 'Princess Leia', 'R2-D2 (Serving Tray)', 'Ree-Yees', 'Weequay Skiff Guard'], set_series='Star Wars').save()
     Lego(name='Republic Trooper vs Sith Troopers', set_number=75001, piece_count=63, source='Expanded Universe', release_year=2013,
-         image_url='https://images.brickset.com/sets/images/75001-1.jpg?201210180459', minifigures=['Republic Trooper (2x)', 'Sith Trooper (2x)], set_series='Star Wars').save()
+         image_url='https://images.brickset.com/sets/images/75001-1.jpg?201210180459', minifigures=['Republic Trooper (2x)', 'Sith Trooper (2x)'], set_series='Star Wars').save()
     Lego(name='JEK-14\'s Stealth Starfighter', set_number=75018, piece_count=550, source='Expanded Universe', release_year=2013,
              image_url='https://images.brickset.com/sets/images/75018-1.jpg?201302101020', minifigures=['Bounty Hunter', 'Jek-14', 'R4-G0', 'Special Forces Clone Trooper'], set_series='Star Wars').save()
     Lego(name='Advent Calendar', set_number=75023, piece_count=254, source='Expanded Universe', release_year=2013,
              image_url='https://images.brickset.com/sets/images/75023-1.jpg?201302101020', minifigures=['Battle Droid', 'Boba Fett (Young)', 'Clone Trooper', 'Endor Rebel Trooper', 'FA-4 Pilot Droid', 'Geonosian', 'R5-F7', 'Jango Fett (Santa)', 'Scout Trooper'], set_series='Star Wars').save()
     Lego(name='Jedi Defender-Class Cruiser', set_number=75025, piece_count=927, source='Expanded Universe', release_year=2013,
              image_url='https://images.brickset.com/sets/images/75025-1.jpg?201212280421', minifigures=['Jedi Consular', 'Jedi Knight', 'Sith Trooper', 'Sith Warrior'], set_series='Star Wars').save()
-    Lego(name='AT-RT', set_number=75002, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='Z-95 Headhunter', set_number=75004, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='BARC Speeder with Sidecar', set_number=75012, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='Umbaran MHC (Mobile Heavy Cannon)', set_number=75013, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='Mandalorian Speeder', set_number=75022, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='HH-87 Starhopper', set_number=75024, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='Z-95 Headhunter', set_number=30240, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='Mandalorian Fighter', set_number=30241, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='Republic Frigate', set_number=30242, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='Umbaran MHC', set_number=30243, piece_count=, source='Clone Wars', release_year=2013,
-         image_url='', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='AT-RT', set_number=75002, piece_count=222, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/75002-1.jpg?201210180459', minifigures=['Yoda', 'Droideka', 'Commando Droid Captain', '501st Legion CLone Trooper'], set_series='Star Wars').save()
+    Lego(name='Z-95 Headhunter', set_number=75004, piece_count=373, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/75004-1.jpg?201210180459', minifigures=['Pong Krell', '501st Clone Pilot', '501st Legion Clone Trooper'], set_series='Star Wars').save()
+    Lego(name='BARC Speeder with Sidecar', set_number=75012, piece_count=226, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/75012-1.jpg?201210180459', minifigures=['Captain Rex', 'Commando Droid (2x)', 'Obi-Wan Kenobi'], set_series='Star Wars').save()
+    Lego(name='Umbaran MHC (Mobile Heavy Cannon)', set_number=75013, piece_count=493, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/75013-1.jpg?201210180459', minifigures=['Ahsoka Tano', '212th Clone Trooper', 'Umbaran Soldier (2x)'], set_series='Star Wars').save()
+    Lego(name='Mandalorian Speeder', set_number=75022, piece_count=211, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/75022-1.jpg?201302101020', minifigures=['Darth Maul (Mech Legs)', 'Mandalorian Super Commando (2x)'], set_series='Star Wars').save()
+    Lego(name='HH-87 Starhopper', set_number=75024, piece_count=362, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/75024-1.jpg?201305020417', minifigures=['Cad Bane', 'Nikto Guard', 'Obi-Wan Kenobi (Rako Hardeen)'], set_series='Star Wars').save()
+    Lego(name='Z-95 Headhunter', set_number=30240, piece_count=54, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/30240-1.jpg?201301030530', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Mandalorian Fighter', set_number=30241, piece_count=49, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/30241-1.jpg?201301030530', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Republic Frigate', set_number=30242, piece_count=45, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/30242-1.jpg?201301030530', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Umbaran MHC', set_number=30243, piece_count=48, source='Clone Wars', release_year=2013,
+             image_url='https://images.brickset.com/sets/images/30243-1.jpg?201301030530', minifigures=['None'], set_series='Star Wars').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2013,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    # Lego(name='', set_number=, piece_count=, source='', release_year=2013,
+    #      image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
