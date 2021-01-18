@@ -71,8 +71,8 @@ def seed(apps, schema_editor):
     Lego(name='Umbaran MHC', set_number=30243, piece_count=48, source='Clone Wars', release_year=2013,
              image_url='https://images.brickset.com/sets/images/30243-1.jpg?201301030530', minifigures=['None'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2013,
-    #      image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2013,
+#          image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
