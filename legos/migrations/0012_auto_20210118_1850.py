@@ -59,8 +59,8 @@ def seed(apps, schema_editor):
     Lego(name='Coruscant Police Gunship', set_number=75046, piece_count=481, source='Clone Wars', release_year=2014,
          image_url='https://images.brickset.com/sets/images/75046-1.jpg?201311210943', minifigures=['Anakin Skywalker', 'Ahsoka Tano', 'Shock Trooper (2x)'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2014,
-    #      image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2014,
+#          image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
