@@ -105,8 +105,26 @@ def seed(apps, schema_editor):
     Lego(name='Snowspeeder', set_number=911506, piece_count=19, source='Episode V', release_year=2015,
          image_url='https://images.brickset.com/sets/images/SW911506-1.jpg?201601051049', minifigures=['None'], set_series='Star Wars').save()
 
+    Lego(name='Mini Slave I', set_number=911508, piece_count=20, source='Episode II', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/SW911508-1.jpg?201510240228', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Imperial Shooter', set_number=911509, piece_count=20, source='Rebels', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/SW911509-1.jpg?201902030901', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Micro Star Destroyer and TIE Fighter', set_number=911510, piece_count=21, source='Episode IV', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/SW911510-1.jpg?201510240229', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Jedi Weapon Stand', set_number=911511, piece_count=16, source='Expanded Universe', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/SW911511-1.jpg?201707180856', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Stormtrooper Sergeant', set_number=5002938, piece_count=5, source='Rebels', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/5002938-1.jpg?201605160804', minifigures=['Stormtrooper Sergeant'], set_series='Star Wars').save()
+    Lego(name='The Phantom', set_number=5002939, piece_count=25, source='Rebels', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/5002939-1.jpg?201503130212', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Admiral Yularen', set_number=5002947, piece_count=4, source='Episode IV', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/5002947-1.jpg?201505040833', minifigures=['Admiral Yularen'], set_series='Star Wars').save()
+    Lego(name='C-3PO', set_number=5002948, piece_count=3, source='Episode VII', release_year=2015,
+         image_url='https://images.brickset.com/sets/images/5002948-1.jpg?201601050913', minifigures=['C-3PO'], set_series='Star Wars').save()
+
 #     Lego(name='', set_number=, piece_count=, source='', release_year=2015,
 #         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    
 
 
 def fallow(apps, schema_editor):
