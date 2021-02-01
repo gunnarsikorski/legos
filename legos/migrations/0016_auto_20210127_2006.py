@@ -47,18 +47,36 @@ def seed(apps, schema_editor):
     Lego(name='Hogwarts Castle', set_number=5378, piece_count=943, source='Order of the Phoenix', release_year=2007,
          image_url='https://images.brickset.com/sets/images/5378-1.jpg?200704270313', minifigures=['Albus Dumbledore', 'Death Eater', 'Draco Malfoy', 'Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Dolores Umbridge', 'Severus Snape', 'Rubeus Hagrid'], set_series='Harry Potter').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2010,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2010,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2010,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2010,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2010,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2010,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='Freeing Dobby', set_number=4736, piece_count=73, source='Chamber of Secrets', release_year=2010,
+         image_url='https://images.brickset.com/sets/images/4736-1.jpg?201009010137', minifigures=['Dobby', 'Harry Potter', 'Lucius Malfoy'], set_series='Harry Potter').save()
+    Lego(name='Quidditch Match', set_number=4737, piece_count=153, source='Chamber of Secrets', release_year=2010,
+         image_url='https://images.brickset.com/sets/images/4737-1.jpg?201010040320', minifigures=['Madame Hooch', 'Harry Potter', 'Oliver Wood', 'Draco Malfoy', 'Marcus Flint'], set_series='Harry Potter').save()
+    Lego(name='Hagrid\'s Hut', set_number=4738, piece_count=442, source='Chamber of Secrets', release_year=2010,
+         image_url='https://images.brickset.com/sets/images/4738-1.jpg?201009301135', minifigures=['Rubeus Hagrid', 'Harry Potter', 'Hermione Granger', 'Ron Weasley'], set_series='Harry Potter').save()
+    Lego(name='The Burrow', set_number=4840, piece_count=568, source='Half-Blood Prince', release_year=2010,
+         image_url='https://images.brickset.com/sets/images/4840-1.jpg?201009010138', minifigures=['Arthur Weasley', 'Molly Weasley', 'Ginny Weasley', 'Bellatrix Lestrange', 'Fenrir Greyback', 'Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Express', set_number=4841, piece_count=646, source='General', release_year=2010,
+         image_url='https://images.brickset.com/sets/images/4841-1.jpg?201009301136', minifigures=['Harry Potter', 'Luna Lovergood', 'Ginny Weasley', 'Ron Weasley', 'Draco Malfoy'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Castle', set_number=4842, piece_count=1290, source='General', release_year=2010,
+         image_url='https://images.brickset.com/sets/images/4842-1.jpg?201009010137', minifigures=['Albus Dumbledore', 'Argus Filch', 'Dementor (2x)', 'Gryffindor Knight Statue', 'Harry Potter', 'Hermione Granger', 'Filius Flitwick', 'Minerva McGonagall', 'Severus Snape', 'Voldemort'], set_series='Harry Potter').save()
+
+    Lego(name='The Forbidden Forest', set_number=4865, piece_count=64, source='Deathly Hallows', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/4865-1.jpg?201103240404', minifigures=['Rubeus Hagrid', 'Harry Potter', 'Voldemort', 'Narcissa Malfoy'], set_series='Harry Potter').save()
+    Lego(name='The Knight Bus', set_number=4866, piece_count=257, source='Prisoner of Azkaban', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/4866-1.jpg?201103240404', minifigures=['Harry Potter', 'Ernie Prang', 'Stan Shunpike'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts', set_number=4867, piece_count=466, source='Deathly Hallows', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/4867-1.jpg?201103240404', minifigures=['Dementor', 'Gregory Goyle', 'Harry Potter', 'Lucius Malfoy', 'Neville Longbottom', 'Pomona Sprout', 'Remus Lupin'], set_series='Harry Potter').save()
+    Lego(name='Diagon Alley', set_number=10217, piece_count=2025, source='General', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/10217-1.jpg?201012240436', minifigures=['Fenrir Greyback', 'Fred Weasley', 'George Weasley', 'Garrick Ollivander', 'Goblin (2x)', 'Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Lucius Malfoy', 'Rubeus Hagrid', 'Skeleton'], set_series='Harry Potter').save()
+    Lego(name='Trolley', set_number=30110, piece_count=22, source='General', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/30110-1.jpg?201104020824', minifigures=['Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='The Lab', set_number=30111, piece_count=34, source='General', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/30111-1.jpg?201104020824', minifigures=['Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Mini Hogwarts Express', set_number=40028, piece_count=64, source='General', release_year=2011,
+         image_url='https://images.brickset.com/sets/images/40028-1.jpg?201605160905', minifigures=['None'], set_series='Harry Potter').save()
+
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2018,
+#         image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
