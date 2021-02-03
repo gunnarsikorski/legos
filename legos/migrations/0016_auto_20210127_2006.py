@@ -75,7 +75,79 @@ def seed(apps, schema_editor):
     Lego(name='Mini Hogwarts Express', set_number=40028, piece_count=64, source='General', release_year=2011,
          image_url='https://images.brickset.com/sets/images/40028-1.jpg?201605160905', minifigures=['None'], set_series='Harry Potter').save()
 
-#     Lego(name='', set_number=, piece_count=, source='', release_year=2018,
+    Lego(name='Harry\'s Journey to Hogwarts', set_number=30407, piece_count=40, source='The Sorcerer\'s Stone', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/30407-1.jpg?201810030355', minifigures=['Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Diagon Alley', set_number=40289, piece_count=374, source='General', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/40289-1.jpg?201810250747', minifigures=['Garrick Ollivander'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Castle', set_number=71043, piece_count=6020, source='General', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/71043-1.jpg?201807250319', minifigures=['Godric Gryffindor', 'Salazar Slytherin', 'Helga Hufflepuff', 'Rowena Ravenclaw'], set_series='Harry Potter').save()
+    Lego(name='Aragog\'s Lair', set_number=75950, piece_count=157, source='Chamber of Secrets', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75950-1.jpg?201806220833', minifigures=['Harry Potter', 'Ron Weasley'], set_series='Harry Potter').save()
+    Lego(name='Grindelwald\'s Escape', set_number=75951, piece_count=132, source='Fantastic Beasts', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75951-1.jpg?201805260756', minifigures=['Gellert Grindelwald', 'Seraphina Picquery'], set_series='Harry Potter').save()
+    Lego(name='Newt\'s Case of Magical Creatures', set_number=75952, piece_count=694, source='Fantastic Beasts', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75952-1.jpg?201807130816', minifigures=['Jacob Kowalski', 'Newt Scamander', 'Queenie Goldstein', 'Tina Goldstein'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Whomping Willow', set_number=75953, piece_count=753, source='Chamber of Secrets', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75953-1.jpg?201805260756', minifigures=['Argus Filch', 'Harry Potter', 'Ron Weasley', 'Hermione Granger', 'Severus Snape', 'Seamus Finnigan', ''], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Great Hall', set_number=75954, piece_count=878, source='The Sorcerer\'s Stone', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75954-1.jpg?201805260756', minifigures=['Albus Dumbledore', 'Draco Malfoy', 'Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Nearly Headless Nick', 'Minerva McGonagall', 'Quirinus Quirrell', 'Rubeus Hagrid', 'Susan Bones'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Express', set_number=75955, piece_count=801, source='Prisoner of Azkaban', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75955-1.jpg?201807101202', minifigures=['Dementor', 'Harry Potter', 'Hermione Granger',' Ron Weasley', 'Remus Lupin', 'Trolley Witch'], set_series='Harry Potter').save()
+    Lego(name='Quidditch Match', set_number=75956, piece_count=500, source='The Sorcerer\'s Stone', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75956-1.jpg?201805260756', minifigures=['Harry Potter', 'Hermione Granger', 'Lucian Bole', 'Marcus Flint', 'Oliver Wood', 'Severus Snape'], set_series='Harry Potter').save()
+    Lego(name='Harry Potter Minifigure Collection', set_number=5005254, piece_count=25, source='General', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/5005254-1.jpg?201808220510', minifigures=['Madame Hooch', 'Horace Slughorn', 'Dolores Umbridge', 'Severus Snape (Boggart)'], set_series='Harry Potter').save()
+
+    Lego(name='Expecto Patronum', set_number=75945, piece_count=121, source='Prisoner of Azkaban', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75945-1.jpg?201905140825', minifigures=['Dementor (2x)', 'Sirius Black', 'Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Hungarian Horntail Triwizard Challenge', set_number=75946, piece_count=265, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75946-1.jpg?201905140825', minifigures=['Harry Potter', 'Viktor Krum', 'Cedric Diggory', 'Fleur Delacour'], set_series='Harry Potter').save()
+    Lego(name='Hagrid\'s Hut: Buckbeak\'s Rescue', set_number=75947, piece_count=496, source='Prisoner of Azkaban', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75947-1.jpg?201905140825', minifigures=['Executioner', 'Rubeus Hagrid', 'Harry Potter', 'Hermione Granger', 'Cornelius Fudge', 'Ron Weasley'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Clock Tower', set_number=75948, piece_count=922, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75948-1.jpg?201905140825', minifigures=['Albus Dumbledore', 'Cedric Diggory', 'Fleur Delacour', 'Harry Potter', 'Hermione Granger', 'Madame Maxime', 'Ron Weasley', 'Viktor Krum'], set_series='Harry Potter').save()
+    Lego(name='The Knight Bus', set_number=75957, piece_count=403, source='Prisoner of Azkaban', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75957-1.jpg?201905140825', minifigures=['Ernie Prang', 'Stan Shunpike', 'Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Beauxbaton\'s Carriage: Arrival at Hogwarts', set_number=75958, piece_count=430, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75958-1.jpg?201907130955', minifigures=['Rubeus Hagrid', 'Madame Maxime', 'Fleur Delacour', 'Gabrielle Delacour'], set_series='Harry Potter').save()
+    Lego(name='Harry Potter Advent Calendar', set_number=75964, piece_count=305, source='General', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75964-1.jpg?201911251110', minifigures=['Albus Dumbledore', 'Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Hogwarts Architect Statue', 'Filius Flitwick', 'Minerva McGonagall', 'Snow Wizard'], set_series='Harry Potter').save()
+    Lego(name='The Rise of Voldemort', set_number=75965, piece_count=184, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75965-1.jpg?201907130955', minifigures=['Voldemort', 'Harry Potter', 'Baby Voldemort', 'Death Eater', 'Peter Pettigrew', 'Tom Riddle Grave Statue'], set_series='Harry Potter').save()
+
+    Lego(name='Harry Potter and Hedwig: Owl Delivery', set_number=30420, piece_count=31, source='General', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/30420-1.jpg?202004220927', minifigures=['Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Monster Book of Monsters', set_number=30628, piece_count=319, source='Prisoner of Azkaban', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/30628-1.jpg?202010160256', minifigures=['Draco Malfoy'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Students Accessory Set', set_number=40419, piece_count=53, source='General', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/40419-1.jpg?202005210622', minifigures=['Cho Chang', 'Draco Malfoy', 'Hannah Abbott', 'Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Room of Requirement', set_number=75966, piece_count=193, source='Order of the Phoenix', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75966-1.jpg?202004290912', minifigures=['Harry Potter', 'Hermione Granger', 'Luna Lovegood', 'Mechanical Death Eater'], set_series='Harry Potter').save()
+    Lego(name='Forbidden Forest: Umbridge\'s Encounter', set_number=75967, piece_count=253, source='Order of the Phoenix', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75967-1.jpg?202004290913', minifigures=['Harry Potter', 'Dolores Umbridge', 'Hermione Granger', 'Centaur (2x)'], set_series='Harry Potter').save()
+    Lego(name='4 Privet Drive', set_number=75968, piece_count=797, source='Chamber of Secrets', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75968-1.jpg?202004290913', minifigures=['Dobby', 'Harry Potter', 'Ron Weasley', 'Vernon Dursley', 'Petunia Dursley', 'Dudley Dursley'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Astronomy Tower', set_number=75969, piece_count=971, source='Half-Blood Prince', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75969-1.jpg?202004290910', minifigures=['Draco Malfoy', 'Harry Potter', 'Hermione Granger', 'Horace Slughorn', 'Lavender Brown', 'Luna Lovegood', 'Neville Longbottom', 'Ron Weasley'], set_series='Harry Potter').save()
+    Lego(name='Diagon Alley', set_number=75978, piece_count=5544, source='General', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75978-1.jpg?202008131156', minifigures=['Daily Prophet Photographer', 'Draco Malfoy', 'Florean Fortescue', 'Fred Weasley', 'George Weasley', 'Garrick Ollivander', 'Gilderoy Lockhart', 'Ginny Weasley', 'Harry Potter (2x)', 'Hermione Granger', 'Lucius Malfoy', 'Ravenclaw Mannequin', 'Hufflepuff Mannequin', 'Molly Weasley', 'Ron Weasley', 'Rubeus Hagrid'], set_series='Harry Potter').save()
+    Lego(name='Hedwig', set_number=75979, piece_count=630, source='General', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75979-1.jpg?202004290914', minifigures=['Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Attack on The Burrow', set_number=75980, piece_count=1047, source='Half-Blood Prince', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75980-1.jpg?202004290909', minifigures=['Arthur Weasley', 'Molly Weasley', 'Ginny Weasley', 'Ron Weasley', 'Bellatrix Lestrange', 'Fenrir Greyback', 'Harry Potter', 'Nymphadora Tonks'], set_series='Harry Potter').save()
+    Lego(name='Harry Potter Advent Calendar', set_number=75981, piece_count=335, source='Goblet of Fire', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75981-1.jpg?202007220507', minifigures=['Harry Potter', 'Hermione Granger', 'Cho Chang', 'Parvati Patil', 'Ron Weasley', 'Padma Patil'], set_series='Harry Potter').save()
+
+    Lego(name='Hogwarts Moment: Transfiguration Class', set_number=76382, piece_count=241, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76382-1.jpg?202009130335', minifigures=['Hermione Granger', 'Ron Weasley', 'Minerva McGonagall'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Potions Class', set_number=76383, piece_count=271, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76383-1.jpg?202009130335', minifigures=['Severus Snape', 'Draco Malfoy', 'Seamus Finnigan'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Herbology Class', set_number=76384, piece_count=233, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76384-1.jpg?202009130335', minifigures=['Pomona Sprout', 'Neville Longbottom', 'Cedric Diggory'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Charms Class', set_number=76385, piece_count=256, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76385-1.jpg?202009130335', minifigures=['Harry Potter', 'Cho Chang', 'Filius Flitwick'], set_series='Harry Potter').save()
+
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2021,
 #         image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
 
 def fallow(apps, schema_editor):
