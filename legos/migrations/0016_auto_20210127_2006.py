@@ -75,8 +75,48 @@ def seed(apps, schema_editor):
     Lego(name='Mini Hogwarts Express', set_number=40028, piece_count=64, source='General', release_year=2011,
          image_url='https://images.brickset.com/sets/images/40028-1.jpg?201605160905', minifigures=['None'], set_series='Harry Potter').save()
 
-#     Lego(name='', set_number=, piece_count=, source='', release_year=2018,
-#         image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='Harry\'s Journey to Hogwarts', set_number=30407, piece_count=40, source='The Sorcerer\'s Stone', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/30407-1.jpg?201810030355', minifigures=['Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Diagon Alley', set_number=40289, piece_count=374, source='General', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/40289-1.jpg?201810250747', minifigures=['Garrick Ollivander'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Castle', set_number=71043, piece_count=6020, source='General', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/71043-1.jpg?201807250319', minifigures=['Godric Gryffindor', 'Salazar Slytherin', 'Helga Hufflepuff', 'Rowena Ravenclaw'], set_series='Harry Potter').save()
+    Lego(name='Aragog\'s Lair', set_number=75950, piece_count=157, source='Chamber of Secrets', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75950-1.jpg?201806220833', minifigures=['Harry Potter', 'Ron Weasley'], set_series='Harry Potter').save()
+    Lego(name='Grindelwald\'s Escape', set_number=75951, piece_count=132, source='Fantastic Beasts', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75951-1.jpg?201805260756', minifigures=['Gellert Grindelwald', 'Seraphina Picquery'], set_series='Harry Potter').save()
+    Lego(name='Newt\'s Case of Magical Creatures', set_number=75952, piece_count=694, source='Fantastic Beasts', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75952-1.jpg?201807130816', minifigures=['Jacob Kowalski', 'Newt Scamander', 'Queenie Goldstein', 'Tina Goldstein'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Whomping Willow', set_number=75953, piece_count=753, source='Chamber of Secrets', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75953-1.jpg?201805260756', minifigures=['Argus Filch', 'Harry Potter', 'Ron Weasley', 'Hermione Granger', 'Severus Snape', 'Seamus Finnigan', ''], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Great Hall', set_number=75954, piece_count=878, source='The Sorcerer\'s Stone', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75954-1.jpg?201805260756', minifigures=['Albus Dumbledore', 'Draco Malfoy', 'Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Nearly Headless Nick', 'Minerva McGonagall', 'Quirinus Quirrell', 'Rubeus Hagrid', 'Susan Bones'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Express', set_number=75955, piece_count=801, source='Prisoner of Azkaban', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75955-1.jpg?201807101202', minifigures=['Dementor', 'Harry Potter', 'Hermione Granger',' Ron Weasley', 'Remus Lupin', 'Trolley Witch'], set_series='Harry Potter').save()
+    Lego(name='Quidditch Match', set_number=75956, piece_count=500, source='The Sorcerer\'s Stone', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75956-1.jpg?201805260756', minifigures=['Harry Potter', 'Hermione Granger', 'Lucian Bole', 'Marcus Flint', 'Oliver Wood', 'Severus Snape'], set_series='Harry Potter').save()
+    Lego(name='Harry Potter Minifigure Collection', set_number=5005254, piece_count=25, source='General', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/5005254-1.jpg?201808220510', minifigures=['Madame Hooch', 'Horace Slughorn', 'Dolores Umbridge', 'Severus Snape (Boggart)'], set_series='Harry Potter').save()
+
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+
+    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
+        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
