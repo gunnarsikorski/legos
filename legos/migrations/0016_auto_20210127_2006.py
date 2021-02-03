@@ -98,22 +98,22 @@ def seed(apps, schema_editor):
     Lego(name='Harry Potter Minifigure Collection', set_number=5005254, piece_count=25, source='General', release_year=2018,
          image_url='https://images.brickset.com/sets/images/5005254-1.jpg?201808220510', minifigures=['Madame Hooch', 'Horace Slughorn', 'Dolores Umbridge', 'Severus Snape (Boggart)'], set_series='Harry Potter').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2019,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='Expecto Patronum', set_number=75945, piece_count=121, source='Prisoner of Azkaban', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75945-1.jpg?201905140825', minifigures=['Dementor (2x)', 'Sirius Black', 'Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Hungarian Horntail Triwizard Challenge', set_number=75946, piece_count=265, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75946-1.jpg?201905140825', minifigures=['Harry Potter', 'Viktor Krum', 'Cedric Diggory', 'Fleur Delacour'], set_series='Harry Potter').save()
+    Lego(name='Hagrid\'s Hut: Buckbeak\'s Rescue', set_number=75947, piece_count=496, source='Prisoner of Azkaban', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75947-1.jpg?201905140825', minifigures=['Executioner', 'Rubeus Hagrid', 'Harry Potter', 'Hermione Granger', 'Cornelius Fudge', 'Ron Weasley'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Clock Tower', set_number=75948, piece_count=922, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75948-1.jpg?201905140825', minifigures=['Albus Dumbledore', 'Cedric Diggory', 'Fleur Delacour', 'Harry Potter', 'Hermione Granger', 'Madame Maxime', 'Ron Weasley', 'Viktor Krum'], set_series='Harry Potter').save()
+    Lego(name='The Knight Bus', set_number=75957, piece_count=403, source='Prisoner of Azkaban', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75957-1.jpg?201905140825', minifigures=['Ernie Prang', 'Stan Shunpike', 'Harry Potter'], set_series='Harry Potter').save()
+    Lego(name='Beauxbaton\'s Carriage: Arrival at Hogwarts', set_number=75958, piece_count=430, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75958-1.jpg?201907130955', minifigures=['Rubeus Hagrid', 'Madame Maxime', 'Fleur Delacour', 'Gabrielle Delacour'], set_series='Harry Potter').save()
+    Lego(name='Harry Potter Advent Calendar', set_number=75964, piece_count=305, source='General', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75964-1.jpg?201911251110', minifigures=['Albus Dumbledore', 'Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Hogwarts Architect Statue', 'Filius Flitwick', 'Minerva McGonagall', 'Snow Wizard'], set_series='Harry Potter').save()
+    Lego(name='The Rise of Voldemort', set_number=75965, piece_count=184, source='Goblet of Fire', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75965-1.jpg?201907130955', minifigures=['Voldemort', 'Harry Potter', 'Baby Voldemort', 'Death Eater', 'Peter Pettigrew', 'Tom Riddle Grave Statue'], set_series='Harry Potter').save()
 
     Lego(name='', set_number=, piece_count=, source='', release_year=2020,
         image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
