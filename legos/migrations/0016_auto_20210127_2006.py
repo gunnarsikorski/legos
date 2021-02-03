@@ -138,8 +138,17 @@ def seed(apps, schema_editor):
     Lego(name='Harry Potter Advent Calendar', set_number=75981, piece_count=335, source='Goblet of Fire', release_year=2020,
          image_url='https://images.brickset.com/sets/images/75981-1.jpg?202007220507', minifigures=['Harry Potter', 'Hermione Granger', 'Cho Chang', 'Parvati Patil', 'Ron Weasley', 'Padma Patil'], set_series='Harry Potter').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2021,
-        image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Transfiguration Class', set_number=76382, piece_count=241, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76382-1.jpg?202009130335', minifigures=['Hermione Granger', 'Ron Weasley', 'Minerva McGonagall'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Potions Class', set_number=76383, piece_count=271, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76383-1.jpg?202009130335', minifigures=['Severus Snape', 'Draco Malfoy', 'Seamus Finnigan'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Herbology Class', set_number=76384, piece_count=233, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76384-1.jpg?202009130335', minifigures=['Pomona Sprout', 'Neville Longbottom', 'Cedric Diggory'], set_series='Harry Potter').save()
+    Lego(name='Hogwarts Moment: Charms Class', set_number=76385, piece_count=256, source='General', release_year=2021,
+         image_url='https://images.brickset.com/sets/images/76385-1.jpg?202009130335', minifigures=['Harry Potter', 'Cho Chang', 'Filius Flitwick'], set_series='Harry Potter').save()
+
+#     Lego(name='', set_number=, piece_count=, source='', release_year=2021,
+#         image_url='', minifigures=['', '', ''], set_series='Harry Potter').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
