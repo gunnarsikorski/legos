@@ -51,8 +51,65 @@ def seed(apps, schema_editor):
     Lego(name='Resistance Trooper Battle Pack', set_number=75131, piece_count=112, source='Episode VII', release_year=2016,
          image_url='https://images.brickset.com/sets/images/75131-1.jpg?201601050913', minifigures=['Resistance Officer', 'Resistance Trooper (3x)'], set_series='Star Wars').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2016,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='First Order Battle Pack', set_number=75132, piece_count=88, source='Episode VII', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75132-1.jpg?201601050913', minifigures=['First Order Crew Member (Engineer)', 'First Order Crew Member', 'First Order Heavy Assault Stormtrooper', 'First Order Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='Rebel Alliance Battle Pack', set_number=75133, piece_count=101, source='Battlefront', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75133-1.jpg?201601050913', minifigures=['Duros Alliance Fighter', 'Rebel Trooper (2x)', 'Rodian Alliance Fighter'], set_series='Star Wars').save()
+    Lego(name='Galactic Empire Battle Pack', set_number=75134, piece_count=109, source='Battlefront', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75134-1.jpg?201601050913', minifigures=['Imperial Shock Trooper', 'Imperial Jet Pack Trooper (2x)', 'Imperial Crew'], set_series='Star Wars').save()
+    Lego(name='Obi-Wan\'s Jedi Interceptor', set_number=75135, piece_count=215, source='Episode III', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75135-1.jpg?201601050913', minifigures=['Obi-Wan Kenobi', 'R4-P17'], set_series='Star Wars').save()
+    Lego(name='Droid Escape Pod', set_number=75136, piece_count=197, source='Episode IV', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75136-1.jpg?201601050913', minifigures=['C-3PO', 'R2-D2', 'Jawa (2x)'], set_series='Star Wars').save()
+    Lego(name='Carbon-Freezing Chamber', set_number=75137, piece_count=231, source='Episode V', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75137-1.jpg?201601050913', minifigures=['Boba Fett', 'Han Solo', 'Han Solo in Carbonite', 'Ugnaught'], set_series='Star Wars').save()
+    Lego(name='Hoth Attack', set_number=75138, piece_count=233, source='Episode V', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75138-1.jpg?201601050913', minifigures=['Han Solo (Parka)', 'Snowtrooper', 'Hoth Rebel Trooper', 'Imperial Probe Droid'], set_series='Star Wars').save()
+    Lego(name='Battle on Takodana', set_number=75139, piece_count=409, source='Episode VII', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75139-1.jpg?201601050913', minifigures=['Maz Kanata', 'Kylo Ren', 'Finn', 'First Order Stormtrooper (2x)'], set_series='Star Wars').save()
+    Lego(name='Resistance Troop Transporter', set_number=75140, piece_count=646, source='Episode VII', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75140-1.jpg?201601050913', minifigures=['General Leia', 'Admiral Ackbar', 'Resistance Trooper (2x)'], set_series='Star Wars').save()
+    Lego(name='Kanan\'s Speeder Bike', set_number=75141, piece_count=234, source='Rebels', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75141-1.jpg?201601050913', minifigures=['Imperial Combat Driver', 'Kanan Jarrus', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='Homing Spider Droid', set_number=75142, piece_count=310, source='Episode III', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75142-1.jpg?201601050913', minifigures=['41st Kashyyyk Clone Trooper', 'Battle Droid (2x)', 'Dwarf Spider Droid', 'Yoda'], set_series='Star Wars').save()
+    Lego(name='Eclipse Fighter', set_number=75145, piece_count=363, source='Expanded Universe', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75145-1.jpg?201605201119', minifigures=['Dengar', 'Naare'], set_series='Star Wars').save()
+    Lego(name='Star Wars Advent Calendar', set_number=75146, piece_count=282, source='Expanded Universe', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75146-1.jpg?201608210825', minifigures=['Battle Droid', 'Bespin Guard', 'Gonk Droid', 'Hoth Rebel Trooper', 'Imperial Navy Trooper', 'Luke Skywalker (Jedi Master)', 'U-3PO', 'Snow Chewbacca', 'Snowman', 'Snowtrooper', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='StarScavenger', set_number=75147, piece_count=558, source='Expanded Universe', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75147-1.jpg?201605201119', minifigures=['Kordi', 'R0-GR', 'Rowan', 'Zander'], set_series='Star Wars').save()
+    Lego(name='Encounter on Jakku', set_number=75148, piece_count=530, source='Episode VII', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75148-1.jpg?201605201119', minifigures=['Rey', 'BB-8', 'Teedo', 'Unkar Plutt'], set_series='Star Wars').save()
+    Lego(name='Resistance X-wing Fighter', set_number=75149, piece_count=740, source='Episode VII', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75149-1.jpg?201605201119', minifigures=['Poe Dameron', 'BB-8', 'First Order Flametrooper', 'Lor San Tekka'], set_series='Star Wars').save()
+    Lego(name='Vader\'s TIE Advanced vs. A-wing Starfighter', set_number=75150, piece_count=702, source='Rebels', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75150-1.jpg?201605201119', minifigures=['Darth Vader', 'Grand Moff Tarkin', 'Rebel A-Wing Pilot', 'Sabine Wren'], set_series='Star Wars').save()
+    Lego(name='Clone Turbo Tank', set_number=75151, piece_count=903, source='Episode III', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75151-1.jpg?201605201119', minifigures=['41st Elite Corps Trooper', 'Battle Droid (2x)', 'Clone Commander Gree', 'Luminara Unduli', 'Quinlan Vos'], set_series='Star Wars').save()
+    Lego(name='Imperial Assault Hovertank', set_number=75152, piece_count=385, source='Rogue One', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75152-1.jpg?201609201033', minifigures=['Imperial Hovertank Pilot (2x)', 'Chirrut Imwe'], set_series='Star Wars').save()
+    Lego(name='AT-ST Walker', set_number=75153, piece_count=449, source='Rogue One', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75153-1.jpg?202003240952', minifigures=['Baze Malbus', 'Imperial AT-ST Driver', 'Rebel Trooper'], set_series='Star Wars').save()
+    Lego(name='TIE Striker', set_number=75154, piece_count=543, source='Rogue One', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75154-1.jpg?201609201033', minifigures=['Imperial Ground Crew', 'Rebel Trooper', 'Scarif Stormtrooper', 'TIE Striker Pilot'], set_series='Star Wars').save()
+    Lego(name='Rebel U-wing Fighter', set_number=75155, piece_count=659, source='Rogue One', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75155-1.jpg?201707191128', minifigures=['Bistan', 'Cassian Andor', 'Jyn Erso', 'Rebel U-Wing Pilot', 'Rebel Trooper'], set_series='Star Wars').save()
+    Lego(name='Krennic\'s Imperial Shuttle', set_number=75156, piece_count=863, source='Rogue One', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75156-1.jpg?201609201033', minifigures=['Bodhi Rook', 'Director Orson Krennic', 'Imperial Death Trooper (2x)', 'K-2SO', 'Pao'], set_series='Star Wars').save()
+    Lego(name='Captain Rex\'s AT-TE', set_number=75157, piece_count=972, source='Rebels', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75157-1.jpg?201605201119', minifigures=['Captain Rex (Old)', 'Commander Gregor', 'Commander Wolffe', 'Imperial Inquisitor Fifth Brother', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='Rebel Combat Frigate', set_number=75158, piece_count=936, source='Rebels', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75158-1.jpg?201607190200', minifigures=['Ezra Bridger', 'Ahsoka Tano', 'Agent Kallus', 'Chopper', 'Commander Sato'], set_series='Star Wars').save()
+
+    Lego(name='UCS Death Star', set_number=75159, piece_count=4016, source='Episode IV', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/75159-1.jpg?201608310957', minifigures=['Astromech Droid', 'R2-D2', 'C-3PO', 'Chewbacca', 'Darth Vader', 'Death Star Droid', 'Death Star Trooper (2x)', 'Emperor Palpatine', 'Grand Moff Tarkin', 'Han Solo (Stormtrooper)', 'Han Solo', 'Imperial Gunner', 'Imperial Navy Officer', 'Imperial Officer', 'Interrogation Droid', 'Luke Skywalker (Jedi Master)', 'Luke Skywalker (Tatooine)', 'Luke Skywalker (Stormtrooper)', 'Mouse Droid', 'Obi-Wan Kenobi', 'Princess Leia', 'Royal Guard (2x)', 'Stormtrooper (2x)'], set_series='Star Wars').save()
+    Lego(name='First Order General', set_number=5004406, piece_count=4, source='Episode VII', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/5004406-1.jpg?201611300919', minifigures=['First Order General'], set_series='Star Wars').save()
+    Lego(name='Rebel A-Wing Pilot', set_number=5004408, piece_count=5, source='Episode VI', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/5004408-1.jpg?201606050827', minifigures=['Rebel A-Wing Pilot'], set_series='Star Wars').save()
+    Lego(name='Escape the Space Slug', set_number=6176782, piece_count=161, source='Episode V', release_year=2016,
+         image_url='https://images.brickset.com/sets/images/MAYFOURTH-1.jpg?201605010201', minifigures=['None'], set_series='Star Wars').save()
 
     # Lego(name='', set_number=, piece_count=, source='', release_year=2016,
     #     image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
