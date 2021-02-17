@@ -53,10 +53,56 @@ def seed(apps, schema_editor):
     Lego(name='Resistance Transport Pod', set_number=75176, piece_count=294, source='Episode VIII', release_year=2017,
          image_url='https://images.brickset.com/sets/images/75176-1.jpg?201709041134', minifigures=['Finn', 'Rose Tico', 'BB-8'], set_series='Star Wars').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2017,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='First Order Heavy Scout Walker', set_number=75177, piece_count=554, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75177-1.jpg?201709041134', minifigures=['First Order Crew Member', 'First Order Flametrooper', 'General Hux', 'Resistance Trooper'], set_series='Star Wars').save()
+    Lego(name='Jakku Quadjumper', set_number=75178, piece_count=457, source='Episode VII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75178-1.jpg?201705170344', minifigures=['BB-8', 'Rey', 'Finn', 'First Order Heavy Assault Trooper', 'Unkar\'s Brute'], set_series='Star Wars').save()
+    Lego(name='Kylo Ren\'s TIE Fighter', set_number=75179, piece_count=630, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75179-1.jpg?201709041134', minifigures=['Kylo Ren', 'BB-9E', 'First Order Stormtrooper', 'First Order TIE Pilot'], set_series='Star Wars').save()
+    Lego(name='Rathtar Escape', set_number=75180, piece_count=836, source='Episode VII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75180-1.jpg?201705170344', minifigures=['Bala-Tik', 'Chewbacca', 'Han Solo', 'Guavian Security Guard (2x)'], set_series='Star Wars').save()
+    Lego(name='Republic Fighter Tank', set_number=75182, piece_count=305, source='Clone Wars', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75182-1.jpg?201705170344', minifigures=['Aayla Secura', 'Battle Droid (2x)', 'Clone Trooper Gunner'], set_series='Star Wars').save()
+    Lego(name='Darth Vader Transformation', set_number=75183, piece_count=282, source='Episode III', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75183-1.jpg?201705170344', minifigures=['Anakin Skywalker (Burned)', 'Darth Vader', 'Emperor Palpatine', 'FX Series Medical Assistant Droid', 'Medical Droid', 'Prowler 1000 Exploration Droid'], set_series='Star Wars').save()
+    Lego(name='Star Wars Advent Calendar', set_number=75184, piece_count=309, source='Expanded Universe', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75184-1.jpg?201708021046', minifigures=['BB-8 (Santa)', 'First Order Snowtrooper', 'First Order Stormtrooper', 'Imperial Ground Crew', 'Imperial Officer', 'Imperial Officer', 'Resistance Officer', 'Sabine Wren', 'Unkar\'s Thug'], set_series='Star Wars').save()
+    Lego(name='Tracker I', set_number=75185, piece_count=557, source='Expanded Universe', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75185-1.jpg?201705170344', minifigures=['Rowan', 'Emperor Palpatine', 'Imperial Probe Droid', 'M-OC Hunter Droid'], set_series='Star Wars').save()
+    Lego(name='The Arrowhead', set_number=75186, piece_count=775, source='Expanded Universe', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75186-1.jpg?201705170344', minifigures=['Kordi', 'Quarrie', 'R0-GR', 'Stormtrooper', 'Zander'], set_series='Star Wars').save()
+    Lego(name='BB-8', set_number=75187, piece_count=1106, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75187-1.jpg?201709041134', minifigures=['BB-8'], set_series='Star Wars').save()
+    Lego(name='Resistance Bomber', set_number=75188, piece_count=778, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75188-1.jpg?201709041134', minifigures=['Poe Dameron', 'Nix Jerd', 'Resistance Bomber Pilot', 'Resistance Gunner Paige', 'Vice Admiral Holdo'], set_series='Star Wars').save()
+    Lego(name='First Order Heavy Assault Walker', set_number=75189, piece_count=1376, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75189-1.jpg?201708310746', minifigures=['Captain Poe Dameron', 'First Order Stormtrooper', 'First Order Walker Driver', 'Resistance Trooper', 'Rey'], set_series='Star Wars').save()
+    Lego(name='First Order Star Destroyer', set_number=75190, piece_count=1416, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75190-1.jpg?201709041134', minifigures=['First Order Stormtrooper (2x)', 'BB-9E', 'First Order Medical Droid', 'First Order Officer', 'First Order Shuttle Pilot', 'Supreme Leader Snoke'], set_series='Star Wars').save()
+    Lego(name='Jedi Starfighter with Hyperdrive', set_number=75191, piece_count=825, source='Episode II', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75191-1.jpg?201705170344', minifigures=['Obi-Wan Kenobi', 'Boba Fett', 'Jango Fett', 'R4-P17'], set_series='Star Wars').save()
+    Lego(name='UCS Millennium Falcon', set_number=75192, piece_count=7541, source='Episode VII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75192-1.jpg?201708310401', minifigures=['BB-8', 'C-3PO', 'Chewbacca', 'Han Solo', 'Finn', 'Han Solo (Old)', 'Rey', 'Princess Leia'], set_series='Star Wars').save()
+    Lego(name='Scarif Stormtrooper', set_number=75523, piece_count=89, source='Rogue One', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75523-1.jpg?201611300919', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Chirrut Îmwe', set_number=75524, piece_count=87, source='Rogue One', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75524-1.jpg?201611300919', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Baze Malbus', set_number=75525, piece_count=148, source='Rogue One', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75525-1.jpg?201611300919', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Elite TIE Fighter Pilot', set_number=75526, piece_count=94, source='Episode VII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75526-1.jpg?201709041134', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Rey', set_number=75528, piece_count=85, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75528-1.jpg?201709041134', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Elite Praetorian Guard', set_number=75529, piece_count=92, source='Episode VIII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75529-1.jpg?201709041134', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Chewbacca', set_number=75530, piece_count=179, source='Episode VII', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75530-1.jpg?201709041134', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Stormtrooper Commander', set_number=75531, piece_count=100, source='Episode IV', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75531-1.jpg?201705170344', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Scout Trooper & Speeder Bike', set_number=75532, piece_count=452, source='Episode VI', release_year=2017,
+         image_url='https://images.brickset.com/sets/images/75532-1.jpg?201705170344', minifigures=['None'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2017,
+    # Lego(name='', set_number=, piece_count=, source='', release_year=2018,
     #     image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
