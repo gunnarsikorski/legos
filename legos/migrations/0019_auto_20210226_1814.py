@@ -51,8 +51,52 @@ def seed(apps, schema_editor):
     Lego(name='Jedi and Clone Troopers Battle Pack', set_number=75206, piece_count=102, source='Episode II', release_year=2018,
          image_url='https://images.brickset.com/sets/images/75206-1.jpg?201804100929', minifigures=['Ki-Adi-Mundi', 'Barriss Offee', 'Clone Trooper (2x)'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2018,
-    #     image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='Imperial Patrol Battle Pack', set_number=75207, piece_count=99, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75207-1.jpg?201804091041', minifigures=['Imperial Patrol Trooper (2x)', 'Imperial Emigration Officer', 'Imperial Recruitment Officer'], set_series='Star Wars').save()
+    Lego(name='Yoda\'s Hut', set_number=75208, piece_count=229, source='Episode V', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75208-1.jpg?201803071256', minifigures=['Yoda', 'R2-D2', 'Luke Skywalker'], set_series='Star Wars').save()
+    Lego(name='Han Solo\'s Landspeeder', set_number=75209, piece_count=345, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75209-1.jpg?201804091041', minifigures=['Han Solo', 'Qi\'ra'], set_series='Star Wars').save()
+    Lego(name='Moloch\'s Landspeeder', set_number=75210, piece_count=464, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75210-1.jpg?201804090755', minifigures=['Moloch', 'Rebolt'], set_series='Star Wars').save()
+    Lego(name='Imperial TIE Fighter', set_number=75211, piece_count=519, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75211-1.jpg?201804100929', minifigures=['Han Solo', 'TIE Pilot', 'Mimban Stormtrooper', 'Tobias Beckett (Disguise)'], set_series='Star Wars').save()
+    Lego(name='Kessel Run Millennium Falcon', set_number=75212, piece_count=1414, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75212-1.jpg?201804091041', minifigures=['Chewbacca', 'DD-BD', 'Han Solo', 'Kessel Operations Droid', 'Lando Calrissian', 'Qi\'ra', 'Quay Tolsite'], set_series='Star Wars').save()
+    Lego(name='Star Wars Advent Calendar', set_number=75213, piece_count=307, source='Expanded Universe', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75213-1.jpg?201904140229', minifigures=['Antoc Merrick', 'Battle Droid', 'Guavian Security Soldier', 'IG-88', 'Imperial Death Trooper', 'Rose Tico', 'Rowan',' Rebel Snowman'], set_series='Star Wars').save()
+    Lego(name='Anakin\'s Jedi Starfighter', set_number=75214, piece_count=247, source='Clone Wars', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75214-1.jpg?201807240822', minifigures=['Anakin Skywalker', 'R2-D2'], set_series='Star Wars').save()
+    Lego(name='Cloud-Rider Swoop Bikes', set_number=75215, piece_count=355, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75215-1.jpg?201807240822', minifigures=['Enfys Nest', 'Tobias Beckett', 'Weazel'], set_series='Star Wars').save()
+    Lego(name='Snoke\'s Throne Room', set_number=75216, piece_count=492, source='Episode VIII', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75216-1.jpg?201807240822', minifigures=['Kylo Ren', 'Rey', 'Elite Praetorian Guard', 'Supreme Leader Snoke'], set_series='Star Wars').save()
+    Lego(name='Imperial Conveyex Transport', set_number=75217, piece_count=622, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75217-1.jpg?201807240822', minifigures=['Chewbacca', 'Han Solo', 'Imperial Gunner', 'Range Trooper (2x)'], set_series='Star Wars').save()
+    Lego(name='X-wing Starfighter', set_number=75218, piece_count=731, source='Episode IV', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75218-1.jpg?201807240822', minifigures=['R2-D2', 'R2-Q2', 'Biggs Darklighter', 'Luke Skywalker'], set_series='Star Wars').save()
+    Lego(name='Imperial AT-Hauler', set_number=75219, piece_count=829, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75219-1.jpg?201807240822', minifigures=['Dryden\'s Guard (2x)', 'Qi\'ra', 'Rio Durant', 'Val'], set_series='Star Wars').save()
+    Lego(name='Sandcrawler', set_number=75220, piece_count=1239, source='Episode IV', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75220-1.jpg?201807240822', minifigures=['Medical Droid', 'Luke Skywalker', 'R5-A2', 'Jawa (2x)', 'RA-7 Protocol Droid'], set_series='Star Wars').save()
+    Lego(name='Imperial Landing Craft', set_number=75221, piece_count=636, source='Episode IV', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75221-1.jpg?201807240822', minifigures=['R2-D2', 'Imperial Shuttle Pilot', 'Obi-Wan Kenobi', 'Sandtrooper', 'Sandtrooper (Captain)'], set_series='Star Wars').save()
+    Lego(name='Betrayal at Cloud City', set_number=75222, piece_count=2812, source='Episode V', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75222-1.jpg?201808210159', minifigures=['R2-D2', 'Bespin Guard (2x)', 'Boba Fett', 'C-3PO', 'Chewbacca', 'Cloud Car Pilot', 'Darth Vader', 'Han Solo', 'Han Solo in Carbonite', 'Han Solo (No Jacket', 'IG-88', 'Lando Calrissian', 'Lobot', 'Luke Skywalker', 'Princess Leia', 'Princess Leia (Bespin)', 'Stormtrooper (2x)', 'Ugnaught'], set_series='Star Wars').save()
+    Lego(name='Porg', set_number=75230, piece_count=811, source='Episode VIII', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75230-1.jpg?201810030355', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Millennium Falcon Cockpit', set_number=75512, piece_count=203, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75512-1.jpg?201806200253', minifigures=['Han Solo', 'Chewbacca'], set_series='Star Wars').save()
+    Lego(name='Boba Fett', set_number=75533, piece_count=144, source='Episode V', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75533-1.jpg?201712150926', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Darth Vader', set_number=75534, piece_count=168, source='Episode IV', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75534-1.jpg?201712150926', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Han Solo', set_number=75535, piece_count=101, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75535-1.jpg?201804090231', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Range Trooper', set_number=75536, piece_count=101, source='Solo', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75536-1.jpg?201804090231', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Darth Maul', set_number=75537, piece_count=104, source='Episode I', release_year=2018,
+         image_url='https://images.brickset.com/sets/images/75537-1.jpg?201804100929', minifigures=['None'], set_series='Star Wars').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
