@@ -55,8 +55,46 @@ def seed(apps, schema_editor):
     Lego(name='Slave I - 20th Anniversary Edition', set_number=75243, piece_count=1007, source='Episode V', release_year=2019,
          image_url='https://images.brickset.com/sets/images/75243-1.jpg?201903210341', minifigures=['4-LOM', 'Boba Fett', 'Han Solo', 'Han Solo in Carbonite', 'Princess Leia', 'Zuckuss'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='Episode ', release_year=,
-    #      image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IV', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IV', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode VI', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IV', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='The Mandalorian', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode III', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode I', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode V', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode III', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
