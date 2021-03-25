@@ -55,46 +55,46 @@ def seed(apps, schema_editor):
     Lego(name='Slave I - 20th Anniversary Edition', set_number=75243, piece_count=1007, source='Episode V', release_year=2019,
          image_url='https://images.brickset.com/sets/images/75243-1.jpg?201903210341', minifigures=['4-LOM', 'Boba Fett', 'Han Solo', 'Han Solo in Carbonite', 'Princess Leia', 'Zuckuss'], set_series='Star Wars').save()
 
-    Lego(name='', set_number=, piece_count=, source='Episode IV', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IV', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode VI', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IV', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='The Mandalorian', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode III', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode I', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode V', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode III', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Expanded Universe', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='Episode IX', release_year=2019,
-         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='Tantive IV', set_number=75244, piece_count=1768, source='Episode IV', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75244-1.jpg?201904120858', minifigures=['R2-D2', 'Princess Leia', 'Bail Organa', 'C-3PO', 'Captain Antilles', 'Rebel Fleet Trooper'], set_series='Star Wars').save()
+    Lego(name='Star Wars Advent Calendar', set_number=75245, piece_count=280, source='Expanded Universe', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75245-1.jpg?202004191234', minifigures=['Rebel Fleet Trooper', 'Battle Droid', 'Chewbacca', 'Cloud Car Pilot', 'Festive Gonk Droid', 'First Order Stormtrooper', 'Imperial Gunner', 'Luke Skywalker', 'Mouse Droid'], set_series='Star Wars').save()
+    Lego(name='Death Star Cannon', set_number=75246, piece_count=159, source='Episode IV', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75246-1.jpg?201910040825', minifigures=['Obi-Wan Kenobi', 'Imperial Gunner'], set_series='Star Wars').save()
+    Lego(name='Rebel A-wing Starfighter', set_number=75247, piece_count=62, source='Episode VI', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75247-1.jpg?201812140830', minifigures=['C-3PO', 'Rebel A-Wing Pilot'], set_series='Star Wars').save()
+    Lego(name='Resistance A-wing Starfighter', set_number=75248, piece_count=269, source='Episode IX', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75248-1.jpg?201910040825', minifigures=['Lieutenant Connix', 'Snap Wexley'], set_series='Star Wars').save()
+    Lego(name='Resistance Y-wing Starfighter', set_number=75249, piece_count=578, source='Episode IX', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75249-1.jpg?201910040825', minifigures=['Astromech Droid', 'D-O', 'First Order Snowtrooper', 'Poe Dameron', 'Zorii Bliss'], set_series='Star Wars').save()
+    Lego(name='Pasaana Speeder Chase', set_number=75250, piece_count=373, source='Episode IX', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75250-1.jpg?201910040825', minifigures=['Rey', 'BB-8', 'First Order Jet Trooper', 'First Order Treadspeeder Driver'], set_series='Star Wars').save()
+    Lego(name='Darth Vader\'s Castle', set_number=75251, piece_count=1060, source='Expanded Universe', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75251-1.jpg?201810030922', minifigures=['Darth Vader (Bacta Tank)', 'Darth Vader', 'Imperial Transport Pilot', 'Mouse Droid', 'Royal Guard (2x)'], set_series='Star Wars').save()
+    Lego(name='Imperial Star Destroyer', set_number=75252, piece_count=4784, source='Episode IV', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75252-1.jpg?201909050158', minifigures=['Imperial Crew Member', 'Imperial Officer'], set_series='Star Wars').save()
+    Lego(name='Droid Commander', set_number=75253, piece_count=1177, source='Expanded Universe', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75253-1.jpg?201905300148', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='AT-ST Raider', set_number=75254, piece_count=540, source='The Mandalorian', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75254-1.jpg?201910040825', minifigures=['Cara Dune', 'Klatooinian Raider (2x)', 'Din Djarin'], set_series='Star Wars').save()
+    Lego(name='Yoda', set_number=75255, piece_count=1771, source='Episode III', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75255-1.jpg?201910040825', minifigures=['Yoda'], set_series='Star Wars').save()
+    Lego(name='Kylo Ren\'s Shuttle', set_number=75256, piece_count=1005, source='Episode IX', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75256-1.jpg?201910040825', minifigures=['Kylo Ren', 'First Order Stormtrooper', 'General Pryde', 'Knight of Ren (2x)', 'Sith Trooper'], set_series='Star Wars').save()
+    Lego(name='Millennium Falcon', set_number=75257, piece_count=1351, source='Episode IX', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75257-1.jpg?201910040825', minifigures=['R2-D2', 'Boolio', 'C-3PO', 'Chewbacca', 'D-O', 'Finn', 'Lando Calrissian'], set_series='Star Wars').save()
+    Lego(name='Anakin\'s Podracer – 20th Anniversary Edition', set_number=75258, piece_count=279, source='Episode I', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75258-1.jpg?201903210341', minifigures=['Anakin Skywalker', 'Padme Amidala', 'Luke Skywalker'], set_series='Star Wars').save()
+    Lego(name='Snowspeeder – 20th Anniversary Edition', set_number=75259, piece_count=309, source='Episode V', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75259-1.jpg?201903210341', minifigures=['Dak Ralter', 'Hoth Rebel Trooper', 'Luke Skywalker', 'Lando Calrissian'], set_series='Star Wars').save()
+    Lego(name='Clone Scout Walker – 20th Anniversary Edition', set_number=75261, piece_count=250, source='Episode III', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75261-1.jpg?201903210341', minifigures=['Darth Vader', 'Battle Droid', 'Dward Spider Droid', '41st Elite Corps Trooper', 'Wookiee Warrior'], set_series='Star Wars').save()
+    Lego(name='Imperial Dropship – 20th Anniversary Edition', set_number=75262, piece_count=125, source='Expanded Universe', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75262-1.jpg?201903210341', minifigures=['Han Solo', 'Stormtrooper (3x)', 'Shadow Trooper'], set_series='Star Wars').save()
+    Lego(name='Mini Boost Droid Commander', set_number=75522, piece_count=62, source='Expanded Universe', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/75522-1.jpg?201909080958', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Sith Trooper Bust', set_number=77901, piece_count=484, source='Episode IX', release_year=2019,
+         image_url='https://images.brickset.com/sets/images/77901-1.jpg?201907101010', minifigures=['None'], set_series='Star Wars').save()
 
 
 def fallow(apps, schema_editor):
