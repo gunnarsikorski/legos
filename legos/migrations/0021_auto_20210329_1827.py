@@ -5,59 +5,73 @@ from django.db import migrations
 def seed(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
 
-    Lego(name='', set_number=30386, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='', set_number=40407, piece_count=, source='Episode VI', release_year=2020,
-        image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='', set_number=75263, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=[''], set_series='Star Wars').save()
-    Lego(name='', set_number=75264, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=[''], set_series='Star Wars').save()
-    Lego(name='', set_number=75265, piece_count=, source='Episode IV', release_year=2020,
-        image_url='', minifigures=['', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75266, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75267, piece_count=, source='The Mandalorian', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75268, piece_count=, source='Episode V', release_year=2020,
-        image_url='', minifigures=['', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75269, piece_count=, source='Episode III', release_year=2020,
-        image_url='', minifigures=['', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75270, piece_count=, source='Episode IV', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75271, piece_count=, source='Episode IV', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75272, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75273, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75274, piece_count=, source='Expanded Universe', release_year=2020,
-        image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='', set_number=75275, piece_count=, source='Episode VI', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75276, piece_count=, source='Expanded Universe', release_year=2020,
-        image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='', set_number=75277, piece_count=, source='Expanded Universe', release_year=2020,
-        image_url='', minifigures=['None'], set_series='Star Wars').save()
-    Lego(name='', set_number=75278, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=['D-O'], set_series='Star Wars').save()
-    Lego(name='', set_number=75279, piece_count=, source='Expanded Universe', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75280, piece_count=, source='Clone Wars', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75281, piece_count=, source='Episode III', release_year=2020,
-        image_url='', minifigures=['', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75283, piece_count=, source='Clone Wars', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75284, piece_count=, source='Episode IX', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75286, piece_count=, source='Episode III', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=75288, piece_count=, source='Episode V', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='Poe Dameron\'s X-wing Fighter', set_number=30386, piece_count=72, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/30386-1.jpg?202001031107', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Death Star II Battle', set_number=40407, piece_count=235, source='Episode VI', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/40407-1.jpg?202004210330', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Resistance Y-wing Microfighter', set_number=75263, piece_count=86, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75263-1.jpg?201912100958', minifigures=['Zorii Bliss'], set_series='Star Wars').save()
+    Lego(name='Kylo Ren\'s Shuttle Microfighter', set_number=75264, piece_count=72, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75264-1.jpg?201912100958', minifigures=['Kylo Ren'], set_series='Star Wars').save()
+    Lego(name='T-16 Skyhopper vs Bantha Microfighters', set_number=75265, piece_count=198, source='Episode IV', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75265-1.jpg?201912100958', minifigures=['Tusken Raider', 'T-16 Skyhopper Pilot'], set_series='Star Wars').save()
+    Lego(name='Sith Troopers Battle Pack', set_number=75266, piece_count=105, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75266-1.jpg?201912100958', minifigures=['Sith Fleet Officer', 'Sith Jet Trooper (2x)', 'Sith Trooper'], set_series='Star Wars').save()
+    Lego(name='Mandalorian Battle Pack', set_number=75267, piece_count=102, source='The Mandalorian', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75267-1.jpg?201912100958', minifigures=['Mandalorian Tribe Warrior (4x Colors)'], set_series='Star Wars').save()
+    Lego(name='Snowspeeder', set_number=75268, piece_count=91, source='Episode V', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75268-1.jpg?201912100958', minifigures=['Snowtrooper', 'Wedge Antilles'], set_series='Star Wars').save()
+    Lego(name='Duel on Mustafar', set_number=75269, piece_count=208, source='Episode III', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75269-1.jpg?201912100958', minifigures=['Obi-Wan Kenobi', 'Anakin Skywalker'], set_series='Star Wars').save()
+    Lego(name='Obi-Wan\'s Hut', set_number=75270, piece_count=200, source='Episode IV', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75270-1.jpg?201912100958', minifigures=['Ben Kenobi', 'Luke Skywalker', 'R2-D2', 'Tusken Raider'], set_series='Star Wars').save()
+    Lego(name='Luke Skywalker\'s Landspeeder', set_number=75271, piece_count=236, source='Episode IV', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75271-1.jpg?201912100958', minifigures=['Luke Skywalker', 'C-3PO', 'Jawa'], set_series='Star Wars').save()
+    Lego(name='Sith TIE Fighter', set_number=75272, piece_count=470, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75272-1.jpg?201912100958', minifigures=['Finn', 'First Order TIE Pilot', 'Knight of Ren'], set_series='Star Wars').save()
+    Lego(name='Poe Dameron\'s X-wing Fighter', set_number=75273, piece_count=761, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75273-1.jpg?201912100958', minifigures=['Poe Dameron', 'R2-D2', 'Jannah', 'Knight of Ren'], set_series='Star Wars').save()
+    Lego(name='TIE Fighter Pilot Helmet', set_number=75274, piece_count=724, source='Expanded Universe', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75274-1.jpg?202003170937', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='A-wing Starfighter', set_number=75275, piece_count=1673, source='Episode VI', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75275-1.jpg?202004160927', minifigures=['A-Wing Pilot'], set_series='Star Wars').save()
+    Lego(name='Stormtrooper Helmet', set_number=75276, piece_count=647, source='Expanded Universe', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75276-1.jpg?202003170938', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Boba Fett Helmet', set_number=75277, piece_count=625, source='Expanded Universe', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75277-1.jpg?202003170939', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='D-O', set_number=75278, piece_count=519, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75278-1.jpg?202004191034', minifigures=['D-O'], set_series='Star Wars').save()
+    Lego(name='Star Wars Advent Calendar', set_number=75279, piece_count=311, source='Expanded Universe', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75279-1.jpg?202006170157', minifigures=['Battle Droid', 'D-O', 'Darth Vader', 'Luke Skywalker', 'Pit Droid', 'Poe Dameron', 'Rey', 'Sith Trooper', 'Snowman Gonk Droid', 'Stormtrooper'], set_series='Star Wars').save()
+    Lego(name='501st Legion Clone Troopers', set_number=75280, piece_count=285, source='Clone Wars', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75280-1.jpg?202006020922', minifigures=['501st Legion Jet Trooper', '501st Legion Clone Trooper (3x)', 'Battle Droid (2x)'], set_series='Star Wars').save()
+    Lego(name='Anakin\'s Jedi Interceptor', set_number=75281, piece_count=248, source='Episode III', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75281-1.jpg?202006170155', minifigures=['Anakin Skywalker', 'R2-D2'], set_series='Star Wars').save()
+    Lego(name='Armored Assault Tank (AAT)', set_number=75283, piece_count=286, source='Clone Wars', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75283-1.jpg?202006170155', minifigures=['Ahsoka Tano', '332nd Company Clone Trooper', 'Kashyyyk Battle Droid (2x)'], set_series='Star Wars').save()
+    Lego(name='Knights of Ren Transport Ship', set_number=75284, piece_count=595, source='Episode IX', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75284-1.jpg?202006170155', minifigures=['Rey', 'Knight of Ren (2x)'], set_series='Star Wars').save()
+    Lego(name='General Grievous\'s Starfighter', set_number=75286, piece_count=487, source='Episode III', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75286-1.jpg?202006170155', minifigures=['Obi-Wan Kenobi', 'General Grievous', 'Airborne Clone Trooper'], set_series='Star Wars').save()
+    Lego(name='AT-AT', set_number=75288, piece_count=1267, source='Episode V', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75288-1.jpg?202006180505', minifigures=['AT-AT Driver (2x)', 'General Veers', 'Luke Skywalker', 'Snowtrooper (2x)'], set_series='Star Wars').save()
 
-    # Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-    #     image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='Mos Eisley Cantina', set_number=75290, piece_count=3187, source='Episode IV', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75290-1.jpg?202009091255', minifigures=['R2-D2', 'Bith Musician (3x)', 'C-3PO', 'Chewbacca', 'Dr. Cornelius Evazan', 'Garindan', 'Greedo', 'Han Solo', 'Hrchek Kal Fas', 'Jawa', 'Kabe', 'Labria', 'Luke Skywalker', 'Momaw Nadon', 'Ben Kenobi', 'Ponda Baba', 'Sandtrooper', 'Sandtrooper Captain', 'Wuher'], set_series='Star Wars').save()
+    Lego(name='Death Star Final Duel', set_number=75291, piece_count=775, source='Episode VI', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75291-1.jpg?202006170155', minifigures=['Darth Vader', 'Luke Skywalker', 'Emperor Palpatine', 'Royal Guard (2x)'], set_series='Star Wars').save()
+    Lego(name='The Razor Crest', set_number=75292, piece_count=1023, source='The Mandalorian', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75292-1.jpg?202004030851', minifigures=['Din Djarin', 'Greef Karga', 'Grogu', 'IG-11', 'Scout Trooper'], set_series='Star Wars').save()
+    Lego(name='Resistance I-TS Transport', set_number=75293, piece_count=932, source='Episode VIII', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75293-1.jpg?202006170155', minifigures=['U5-GG', 'Gonk Droid', 'Lt. Bek', 'Vi Moradi'], set_series='Star Wars').save()
+    Lego(name='Bespin Duel', set_number=75294, piece_count=295, source='Episode V', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75294-1.jpg?202008040959', minifigures=['Darth Vader', 'Luke Skywalker'], set_series='Star Wars').save()
+    Lego(name='The Child', set_number=75318, piece_count=1073, source='The Mandalorian', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75318-1.jpg?202005110805', minifigures=['Grogu'], set_series='Star Wars').save()
+    Lego(name='Nebulon-B Frigate', set_number=77904, piece_count=459, source='Episode V', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/77904-1.jpg?202010010312', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Yoda\'s Lightsaber', set_number=6346097, piece_count=140, source='Episode III', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/6346098-1.jpg?202011280914', minifigures=['None'], set_series='Star Wars').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
