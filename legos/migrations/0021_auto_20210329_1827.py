@@ -56,22 +56,22 @@ def seed(apps, schema_editor):
     Lego(name='AT-AT', set_number=75288, piece_count=1267, source='Episode V', release_year=2020,
          image_url='https://images.brickset.com/sets/images/75288-1.jpg?202006180505', minifigures=['AT-AT Driver (2x)', 'General Veers', 'Luke Skywalker', 'Snowtrooper (2x)'], set_series='Star Wars').save()
 
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
-    Lego(name='', set_number=, piece_count=, source='', release_year=2020,
-        image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='Mos Eisley Cantina', set_number=75290, piece_count=3187, source='Episode IV', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75290-1.jpg?202009091255', minifigures=['R2-D2', 'Bith Musician (3x)', 'C-3PO', 'Chewbacca', 'Dr. Cornelius Evazan', 'Garindan', 'Greedo', 'Han Solo', 'Hrchek Kal Fas', 'Jawa', 'Kabe', 'Labria', 'Luke Skywalker', 'Momaw Nadon', 'Ben Kenobi', 'Ponda Baba', 'Sandtrooper', 'Sandtrooper Captain', 'Wuher'], set_series='Star Wars').save()
+    Lego(name='Death Star Final Duel', set_number=75291, piece_count=775, source='Episode VI', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75291-1.jpg?202006170155', minifigures=['Darth Vader', 'Luke Skywalker', 'Emperor Palpatine', 'Royal Guard (2x)'], set_series='Star Wars').save()
+    Lego(name='The Razor Crest', set_number=75292, piece_count=1023, source='The Mandalorian', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75292-1.jpg?202004030851', minifigures=['Din Djarin', 'Greef Karga', 'Grogu', 'IG-11', 'Scout Trooper'], set_series='Star Wars').save()
+    Lego(name='Resistance I-TS Transport', set_number=75293, piece_count=932, source='Episode VIII', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75293-1.jpg?202006170155', minifigures=['U5-GG', 'Gonk Droid', 'Lt. Bek', 'Vi Moradi'], set_series='Star Wars').save()
+    Lego(name='Bespin Duel', set_number=75294, piece_count=295, source='Episode V', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75294-1.jpg?202008040959', minifigures=['Darth Vader', 'Luke Skywalker'], set_series='Star Wars').save()
+    Lego(name='The Child', set_number=75318, piece_count=1073, source='The Mandalorian', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/75318-1.jpg?202005110805', minifigures=['Grogu'], set_series='Star Wars').save()
+    Lego(name='Nebulon-B Frigate', set_number=77904, piece_count=459, source='Episode V', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/77904-1.jpg?202010010312', minifigures=['None'], set_series='Star Wars').save()
+    Lego(name='Yoda\'s Lightsaber', set_number=6346097, piece_count=140, source='Episode III', release_year=2020,
+         image_url='https://images.brickset.com/sets/images/6346098-1.jpg?202011280914', minifigures=['None'], set_series='Star Wars').save()
 
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
