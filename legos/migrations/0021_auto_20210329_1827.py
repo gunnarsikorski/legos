@@ -73,6 +73,36 @@ def seed(apps, schema_editor):
     Lego(name='Yoda\'s Lightsaber', set_number=6346097, piece_count=140, source='Episode III', release_year=2020,
          image_url='https://images.brickset.com/sets/images/6346098-1.jpg?202011280914', minifigures=['None'], set_series='Star Wars').save()
 
+    Lego(name='', set_number=30388, piece_count=, source='Episode IV', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=30625, piece_count=, source='Episode IV', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75295, piece_count=, source='Episode IV', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75297, piece_count=, source='Episode VII', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75298, piece_count=, source='Episode V', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75299, piece_count=, source='The Mandalorian', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75300, piece_count=, source='Episode IV', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75301, piece_count=, source='Episode IV', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75302, piece_count=, source='Episode VI', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75304, piece_count=, source='Expanded Universe', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75305, piece_count=, source='Expanded Universe', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+    Lego(name='', set_number=75306, piece_count=, source='Episode V', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+
+    Lego(name='', set_number=, piece_count=, source='', release_year=2021,
+         image_url='', minifigures=['', '', ''], set_series='Star Wars').save()
+
+
+
 def fallow(apps, schema_editor):
     Lego = apps.get_model('legos', 'Lego')
     Lego.objects.all().delete()
